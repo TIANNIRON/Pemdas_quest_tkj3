@@ -1,19 +1,49 @@
-print("halo gess")
-nama_ssaya_adalah = input("\nnama saya adalah")
-print("\nhari ini akan belajar matematika ya")
-print("kita akan belajar mengkonversikan celcius ke fahrenheit")
-print("kita mulai bahas rumus nya dulu yaaaa \nrumus celcius ke fahrenheit adlah: (9/5 * celcius + 32) \noke  setelah kita mengerti rumus nya mari kita coba")
+# PERSEGI
 
-x = int(input("\ncontoh suhu celcius"))
-y = (9/5 * x) + 32 
-print(x, "celcius =",y, "fahrenheit")
+sisi =int(input("masukan nilai sisi"))
+luas_P =sisi*sisi
 
-print("\noke setelah kita juga bisa melakukan perhitungan di python dengan bilangan bulat dan bilangan tidak bulat")
+print("Luas persegi adalah",luas_P)
 
-A = int(input("\nmasukan nilai bilangan bulat: "))
-B = float(input("\nmasukan nilai bilangan tidak bulat :"))
-C = A + B 
+#segitiga
+          
+alas= int(input("masukan nilai alas"))
+tinggi =int(input("masukan nilai tinggi"))
+luas_S= alas * tinggi / 2
 
-print("A -", A)
-print("B -", B)
-print("c -", C)
+print("Luas segita adalah", luas_S)
+
+#jajar genjang
+
+alas=int(input("masukan nilai alas"))
+tinggi=int(input("masukan nilai tinggi"))
+luas_j=alas * tinggi / 2
+
+print("luas jajar genjang adalah", luas_j)
+
+
+#persegi panjang
+
+          
+panjang=int(input("masukan nilai panjang"))
+lebar=int(input("masukan nilai lebar"))
+luas_p=panjang * lebar
+
+print("luas persegi panjang adalah", luas_p)
+
+
+#trapesium
+
+          
+panjang=int(input("masukan nilai panjang"))
+sisi=int(input("masukan nilai sisi"))
+luas_t=panjang * tinggi /2
+
+
+print("luas trapesium adalah", luas_t)
+
+
+
+
+
+
