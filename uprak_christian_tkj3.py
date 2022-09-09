@@ -1,50 +1,39 @@
-#balok
+# Rumus Volume Balok
+print ("\n1.Volume Balok")
+panjang = int(input("masukkan panjang :"))
+lebar= int(input("masukkan lebar: "))
+tinggi= int(input("masukkan tinggi: "))
+volume_balok = panjang * lebar * tinggi
 
-panjang=20
-lebar=10
-tinggi=10
-luas_B=panjang*lebar*tinggi
+print ("Volume Balok Adalah",volume_balok)
 
-print("luas blok adalah",luas_B)
+# Rumus Volume Kubus
+print ("\n2.Volume Kubus")
+sisi = int(input("masukkan nilai sisi: "))
+volume_kubus = sisi * sisi * sisi
 
+print ("Volume kubus adalah", volume_kubus)
 
-#kubus
+# Rumus Volume Limas
+print ("\n3.Volume Limas")
+sisi_l = int(input("masukkan nilai sisi_l: "))
+tinggi_l = int(input("masukkan nilai tinggi_l: "))
+luas_l = sisi_l * sisi_l
+volume_limas = luas_l * tinggi_l
 
-sisi=10
-sisi=30
-sisi=20
-luas_K=sisi*sisi*sisi
+print ("volume limas adalah",volume_limas)
 
-print("luas kubus adalah",luas_K)
+# Rumus volume tabung
+print ("\n4. Volume Tabung")
+r = int(input("masukkan nilai r: "))
+tinggi_t = int(input("masukkan nilai tinggi_t: "))
+volume_tabung = 22/7 * r * r * tinggi_t
 
+print ("volume tabung adalah",volume_tabung)
 
-#limas
+# Celcius Ke Reamur
+print ("\n5.Celcius ke Reamur")
+C = int(input("masukkan nilai Celcius: "))
+Reamur = 4/5 * C
 
-luas=20
-tinggi=10
-luas_L= 1/3*luas*sisi
-
-print("luas limas adalah",luas_L)
-
-
-#tabung
-
-ruang1=10
-ruang2=20
-tinggi=30
-luas_T=22/7*ruang1*ruang2*tinggi
-
-print("luas tabung adalah",luas_T)
-
-
-#SINTAK
-
-
-celcius=int(input("masukan nilai celcius"))
-nilai_R=4/5
-print
-
-
-
-
-
+print ("Celcius ke Reamur adalah",Reamur)
